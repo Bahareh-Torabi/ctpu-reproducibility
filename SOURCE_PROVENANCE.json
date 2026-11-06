@@ -1,0 +1,231 @@
+{
+  "project_version": "ctpu-article-v1.5.7-20260808",
+  "training_export_code_hash": "a5a64e2351cf9eb55141ffa3c96892b37ce752153d6dc1d9093e2f805e7ce8c4",
+  "publication_code_hash": "23c64269aeeed4f06f3904b6677d9e6737184c6f28c3bea94b726d3297733a7e",
+  "source_archive_sha256_used_in_training": "634d510a6855e345140d5bfa0ed7eb8f7621374713188f7ef684b67dcb696ede",
+  "publication_changes": "Comments, docstrings, and the VERSION text were edited for publication. All training executable Python ASTs and dependency specifications are unchanged. Run records retain their original source identities.",
+  "files": [
+    {
+      "path": "training/VERSION",
+      "training_export_sha256": "8657c50c61b8f59bbdd3e8e015ab02f35de2aac537cddbd4f7a46a8299a85130",
+      "publication_sha256": "9830deccee7a4be074391b65a60dca0f09e4047ffb5b6b0b5dca3abc25f9bcb1",
+      "executable_ast_unchanged": null
+    },
+    {
+      "path": "training/ctpu/__init__.py",
+      "training_export_sha256": "df3007236ab38e1ba9538f52593fa5b8bfffc2a36090d42e77b049ffffbaf661",
+      "publication_sha256": "df3007236ab38e1ba9538f52593fa5b8bfffc2a36090d42e77b049ffffbaf661",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/auxiliary.py",
+      "training_export_sha256": "7f706115d7a6a1370de76d9407146c68f3221eed1e3c6809990103921abd950d",
+      "publication_sha256": "a70ef9a83b5617403007661c993b5cae1b29fa4a758fbbbaec2723a0377caca3",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/config.py",
+      "training_export_sha256": "70fa8fdf2022e164a97f95f06f279c08839000eef02f19857cb4f541878d3bc4",
+      "publication_sha256": "5ff311b314928fdacffebd8710be8438ddd03d0f2570c0aa398991280245bb58",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/data.py",
+      "training_export_sha256": "70193cf4a09576cb5d5870289135df8d6adc541e6e0074334b50e105feb9d72b",
+      "publication_sha256": "75d09b25e76cdcf5a6fd3c3eb1d7069dff10961d4131b60f5397175f99548a13",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/dataset.py",
+      "training_export_sha256": "d3101e01875607262ef1172257356e2822d407f577ee3456837f4e8e53e8eca2",
+      "publication_sha256": "d3101e01875607262ef1172257356e2822d407f577ee3456837f4e8e53e8eca2",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/experiment.py",
+      "training_export_sha256": "42e19ff81849ffb4c5c51abbf3f0245bc677bf7ed36b7b775369ac2ea246a2cc",
+      "publication_sha256": "b9543ec46b77e31cba940ca819984d3752b3a1570a148c8c43df5f6f9c0b7764",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/losses.py",
+      "training_export_sha256": "681a0008fd3d8b5151b026ad3da0f80623605ad15e5b61a3c4a3b5654701d66b",
+      "publication_sha256": "76593347a7885bb802b168d3b8ea86b790a3f05078c568dd82b7ca4bc297feaa",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/metrics.py",
+      "training_export_sha256": "836eac087386d925a817e8ce62e776c5c3a1f220e58698675e100e2d173b70c2",
+      "publication_sha256": "46f350e9e500974413c91d8554341a84dde7481bca6fea83e53ef3f85d165e35",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/multisession.py",
+      "training_export_sha256": "99390fb033c79d3e212f8c22bc4f74e53811bc823586dbb3ee604b906940b2bd",
+      "publication_sha256": "c296900d4a143deb59940a53053fbc5f8681149bef60e390b1ab16b7dff6f25d",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/reporting.py",
+      "training_export_sha256": "8ada3b115319708ff4cd523d46a488052abccc6680aad6b4570d275dd64d23f0",
+      "publication_sha256": "8ada3b115319708ff4cd523d46a488052abccc6680aad6b4570d275dd64d23f0",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/statistics.py",
+      "training_export_sha256": "694fce724f573f6a09469cad30d60f58db2cb1eed3e989b4d7b577c6708f7c7a",
+      "publication_sha256": "694fce724f573f6a09469cad30d60f58db2cb1eed3e989b4d7b577c6708f7c7a",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/train.py",
+      "training_export_sha256": "c88284a6d12ba8be121b95f6a465325be42c0e9df4c1b7235318c6ba519b5d6c",
+      "publication_sha256": "9872f2238d62e92cc3b81d999672d3ebfc122c899ca734555f22e90827d7501a",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/ctpu/utils.py",
+      "training_export_sha256": "1f8ef2221db55adfe1491019def400874a2060f6ad0be2736d245436fa598d00",
+      "publication_sha256": "1f8ef2221db55adfe1491019def400874a2060f6ad0be2736d245436fa598d00",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/references/data_sources.json",
+      "training_export_sha256": "6351d173274d3daaed245ad49a92ccc165ff1433918ed21cc5d55d77e4e4d98f",
+      "publication_sha256": "6351d173274d3daaed245ad49a92ccc165ff1433918ed21cc5d55d77e4e4d98f",
+      "executable_ast_unchanged": null
+    },
+    {
+      "path": "training/references/wasl_reference.json",
+      "training_export_sha256": "ce487ddb7b5be339b44f4ef883fcf12a5f7d6fcc0479f1cca287d43677d3b140",
+      "publication_sha256": "ce487ddb7b5be339b44f4ef883fcf12a5f7d6fcc0479f1cca287d43677d3b140",
+      "executable_ast_unchanged": null
+    },
+    {
+      "path": "training/requirements-colab.txt",
+      "training_export_sha256": "158443cf0a46081552c24e47a9b5b50e5630eff5b5b284cf45e6f7c3d16d608c",
+      "publication_sha256": "381491c64b388bafcc066e6356405a540742ed54c05c0ea4ee2770f80d167192",
+      "executable_ast_unchanged": null
+    },
+    {
+      "path": "training/run_ctpu.py",
+      "training_export_sha256": "0531d08a84bc03a2261f1d376203142ace45e70a13916b73afbefe4454d90f31",
+      "publication_sha256": "0531d08a84bc03a2261f1d376203142ace45e70a13916b73afbefe4454d90f31",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_aapd_overlap_policy.py",
+      "training_export_sha256": "2d972709839ecfcda28576eccc802fe2bc05edc7554e4a29ab0eaefcf65e44a4",
+      "publication_sha256": "2d972709839ecfcda28576eccc802fe2bc05edc7554e4a29ab0eaefcf65e44a4",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_aapd_wide_table.py",
+      "training_export_sha256": "b247648592d5d1b381696d1f6fe1f1cded3bae960d89d5bc742682506e3543d3",
+      "publication_sha256": "b247648592d5d1b381696d1f6fe1f1cded3bae960d89d5bc742682506e3543d3",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_audit_lock.py",
+      "training_export_sha256": "fd0321dff2d3626494dcdb0b4a129f6827d97aa11b461e822549a8715f38cf2d",
+      "publication_sha256": "fd0321dff2d3626494dcdb0b4a129f6827d97aa11b461e822549a8715f38cf2d",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_autograd_update.py",
+      "training_export_sha256": "632281fb87679e866685feeaefa1db3b2edd4beaa8dd48ef6f0752c043a7930a",
+      "publication_sha256": "632281fb87679e866685feeaefa1db3b2edd4beaa8dd48ef6f0752c043a7930a",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_auxiliary.py",
+      "training_export_sha256": "d0afa31d6d56810894b1e4d1cc1e31654bbe9c55b3fe657a0e3040463c658950",
+      "publication_sha256": "d0afa31d6d56810894b1e4d1cc1e31654bbe9c55b3fe657a0e3040463c658950",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_auxiliary_exact.py",
+      "training_export_sha256": "f22519c10d1c71bc6081523571619fa56b50a586aaa16c2a8dbcfc3bbbf9a3a1",
+      "publication_sha256": "f22519c10d1c71bc6081523571619fa56b50a586aaa16c2a8dbcfc3bbbf9a3a1",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_auxproj_naming.py",
+      "training_export_sha256": "1636c1172d7582243708f380fc5e342e034392755b3385722f4da830131507df",
+      "publication_sha256": "1636c1172d7582243708f380fc5e342e034392755b3385722f4da830131507df",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_config.py",
+      "training_export_sha256": "ad70fbf29c7ddeea1454f02ab56c421f5cb14d2cf5886445f6f9af5aeda897ee",
+      "publication_sha256": "ad70fbf29c7ddeea1454f02ab56c421f5cb14d2cf5886445f6f9af5aeda897ee",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_data_synthetic.py",
+      "training_export_sha256": "c093de667ecee0ed1a4eea0d7e7e52e29db3f6a636d4a4bd168f66177e5e25c7",
+      "publication_sha256": "c093de667ecee0ed1a4eea0d7e7e52e29db3f6a636d4a4bd168f66177e5e25c7",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_duplicate_audit.py",
+      "training_export_sha256": "2fc53e17858fe5fa1796c58f887e90f3bb512a77022f2cd02f9ceb842fc62f21",
+      "publication_sha256": "6ea0e9688fa41b78db9bb9b30d31e8fb34e52306d45201f336148ccdd9480855",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_metrics.py",
+      "training_export_sha256": "39cc0be1e1676e6dbcf64e557bd94c98d9a67c375f1d0b6fed13844c583ddc50",
+      "publication_sha256": "39cc0be1e1676e6dbcf64e557bd94c98d9a67c375f1d0b6fed13844c583ddc50",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_multisession_delete_guard.py",
+      "training_export_sha256": "8f8094c338881068541290ef12f8a7b11e4bd2d160bf1b011faf00f830702316",
+      "publication_sha256": "8f8094c338881068541290ef12f8a7b11e4bd2d160bf1b011faf00f830702316",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_multisession_plan.py",
+      "training_export_sha256": "5527e4a3311b6c570a6092e95fd5e44333ecb8ed9de8abbda132f0f7b2ed1e0e",
+      "publication_sha256": "5527e4a3311b6c570a6092e95fd5e44333ecb8ed9de8abbda132f0f7b2ed1e0e",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_pcgrad_true.py",
+      "training_export_sha256": "3a56bb206f739144a2c96061e224ed1e3e6bda7f24bb9af74275125b4d78af8c",
+      "publication_sha256": "3a56bb206f739144a2c96061e224ed1e3e6bda7f24bb9af74275125b4d78af8c",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_reuters_parser.py",
+      "training_export_sha256": "cd70c0e5bdf811c7521a7b2dfb23a9eafa0e8f2f8c8a223bca340ee0403dbdac",
+      "publication_sha256": "cd70c0e5bdf811c7521a7b2dfb23a9eafa0e8f2f8c8a223bca340ee0403dbdac",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_reuters_variant.py",
+      "training_export_sha256": "e992fad06ad24fb71c3503f2945f8b60de73757ab02a69d37df0f66513d79b82",
+      "publication_sha256": "e992fad06ad24fb71c3503f2945f8b60de73757ab02a69d37df0f66513d79b82",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_rng_resume.py",
+      "training_export_sha256": "47453b8302f8a8109806f895b8b7f2b597fef2ff5962e6acb7fe8a4e0a96758e",
+      "publication_sha256": "47453b8302f8a8109806f895b8b7f2b597fef2ff5962e6acb7fe8a4e0a96758e",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_statistics_crossed.py",
+      "training_export_sha256": "0a383f7a919b8ddcfd347582a9d86f5c0cf6408d4309efcdfdf89c4e6be4a511",
+      "publication_sha256": "0a383f7a919b8ddcfd347582a9d86f5c0cf6408d4309efcdfdf89c4e6be4a511",
+      "executable_ast_unchanged": true
+    },
+    {
+      "path": "training/tests/test_utils_hash.py",
+      "training_export_sha256": "da1f7d50aa53984d8774a8c26136b1cfed0f887f1abf9b50ed3bfae1ad26d9cc",
+      "publication_sha256": "da1f7d50aa53984d8774a8c26136b1cfed0f887f1abf9b50ed3bfae1ad26d9cc",
+      "executable_ast_unchanged": true
+    }
+  ]
+}

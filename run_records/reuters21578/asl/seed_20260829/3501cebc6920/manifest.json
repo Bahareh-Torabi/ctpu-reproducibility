@@ -1,0 +1,46 @@
+{
+  "asl_variant": "normalized-elementwise-mean",
+  "attention_implementation": "eager",
+  "checkpoint_selection": "final fixed epoch only",
+  "code_hash": "a5a64e2351cf9eb55141ffa3c96892b37ce752153d6dc1d9093e2f805e7ce8c4",
+  "config_hash": "73174f6411108e87475581e5acacde11fbdc211d8f61b6650634978090fd6e8a",
+  "matched_causal_core_microbatch_policy": false,
+  "no_early_stopping": true,
+  "num_labels": 90,
+  "optimizer_steps_per_epoch": 219,
+  "pairwise_auxiliary_eligible_labels": 90,
+  "pairwise_auxiliary_excludes_zero_train_support_labels": true,
+  "provenance": {
+    "code_hash": "a5a64e2351cf9eb55141ffa3c96892b37ce752153d6dc1d9093e2f805e7ce8c4",
+    "config_hash": "73174f6411108e87475581e5acacde11fbdc211d8f61b6650634978090fd6e8a",
+    "data_provenance_hash": "c25d777a0dd214f4506f8a76ca1b947aba11237e6d86b8a2cbe4e8a72a008a30",
+    "dataset_audit_sha256": "2455d0e13415808fa53779c85a55260cb0666b9b1615df95c7db258a86096d03",
+    "environment_fingerprint": {
+      "bf16_supported": true,
+      "cuda_available": true,
+      "cuda_runtime": "12.8",
+      "gpu_compute_capability": [
+        8,
+        0
+      ],
+      "numpy": "2.0.2",
+      "python": "3.12.13",
+      "scikit_learn": "1.7.2",
+      "scipy": "1.16.3",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.13.1"
+    },
+    "environment_fingerprint_hash": "7d6d32491a61e958a92b338e8510da76229961ae362caf3abe3056d74a8dd298",
+    "provenance_hash": "92cbf773d89d75b576d83c6f7be7e31d741a3886aceb8d9c555c03e808cfc9dd",
+    "train_token_manifest_sha256": "014645cbdb1254b45c2ca0855bbec01e7bfc2ceaf3761f1a006659a08cf61259",
+    "validation_token_manifest_sha256": "8613861ccee4efceffa0e7f7952c8ca996ed79cebc0c38bd5e24b90ede305ed3"
+  },
+  "runtime_probe_method": "asl",
+  "test_loaded_during_development": false,
+  "total_optimizer_steps": 876,
+  "train_rows": 6995,
+  "train_seen_labels": 90,
+  "validation_rows": 775,
+  "warmup_steps": 88,
+  "zero_train_support_labels": 0
+}

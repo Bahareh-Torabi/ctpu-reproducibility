@@ -1,0 +1,43 @@
+{
+  "paper": "Weighted Asymmetric Loss for Multi-Label Text Classification on Imbalanced Data",
+  "authors": ["Yuki Yasuda", "Taro Miyazaki", "Jun Goto"],
+  "venue": "Journal of Natural Language Processing",
+  "year": 2024,
+  "doi": "10.5715/jnlp.31.1166",
+  "license": "CC BY 4.0",
+  "reported_dataset_stats": {
+    "reuters21578": {"documents": 10788, "labels": 90},
+    "aapd": {"documents": 55837, "labels": 54},
+    "eurlex57k": {"documents": 57000, "labels": 4256}
+  },
+  "reported_mean_f1": {
+    "reuters21578": {
+      "bce": {"macro_f1": 0.5862, "micro_f1": 0.9027},
+      "asl": {"macro_f1": 0.6443, "micro_f1": 0.9043},
+      "wasl": {"macro_f1": 0.6691, "micro_f1": 0.9110}
+    },
+    "aapd": {
+      "bce": {"macro_f1": 0.4988, "micro_f1": 0.7014},
+      "asl": {"macro_f1": 0.5963, "micro_f1": 0.7333},
+      "wasl": {"macro_f1": 0.6005, "micro_f1": 0.7355}
+    },
+    "eurlex57k": {
+      "bce": {"macro_f1": 0.1985, "micro_f1": 0.6876},
+      "asl": {"macro_f1": 0.2685, "micro_f1": 0.7005},
+      "wasl": {"macro_f1": 0.2766, "micro_f1": 0.7127}
+    }
+  },
+  "reported_common_setup": {
+    "backbone": "RoBERTa",
+    "epochs": 50,
+    "dropout": 0.1,
+    "threshold": 0.5,
+    "seeds": 5
+  },
+  "reported_wasl_hyperparameters": {
+    "reuters21578": {"alpha": 0.2, "beta": 0.2, "gamma_pos": 1, "gamma_neg": 4, "m": 0.05, "lr": 0.00002},
+    "aapd": {"alpha": 0.2, "beta": 0.3, "gamma_pos": 1, "gamma_neg": 4, "m": 0.05, "lr": 0.00002},
+    "eurlex57k": {"alpha": 0.3, "beta": 0.3, "gamma_pos": 1, "gamma_neg": 4, "m": 0.05, "lr": 0.0002}
+  },
+  "reproduction_note": "Numbers are contextual published references. Main claims must use matched-condition reimplementations in this codebase. PPMI diagonal handling was not explicit in the paper text audited for this project, so the bundled WASL baseline is a transparent reimplementation, not claimed bit-exact author code."
+}

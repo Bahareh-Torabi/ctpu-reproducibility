@@ -1,0 +1,15 @@
+{
+  "n_contrasts": 76,
+  "comparison_keys_equal": true,
+  "replicates": 5000,
+  "maximum_absolute_discrepancy": {
+    "difference_ctpu_minus_comparator": 0.0,
+    "ci_95_lower": 0.0,
+    "ci_95_upper": 0.0
+  },
+  "tolerance": 1e-12,
+  "passed": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

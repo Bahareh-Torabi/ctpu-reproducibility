@@ -1,0 +1,11 @@
+# Use the CUDA-enabled PyTorch build provided by the Colab runtime.
+# Retain the recorded package versions when installing the research dependencies.
+transformers==5.13.1
+huggingface-hub>=0.34,<2
+scikit-learn==1.7.2
+iterative-stratification==0.1.9
+pandas==2.2.2
+requests>=2.32,<3
+tqdm>=4.66,<5
+safetensors>=0.5
+pytest>=8,<10

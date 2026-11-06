@@ -1,0 +1,8 @@
+{
+  "dataset": "eurlex57k",
+  "global_commitment_hash": "894100f2e3a7e0ed2c6279f8cfcbe3aacd6d7fee40f82a08f96484ff1542252c",
+  "lock_hash": "e6ed474f3931273da4f9e7309f482f733a4fbfa1c43c5a57cbb91410e8fc0512",
+  "rule": "One frozen dataset campaign; interruption may resume under the exact same lock only.",
+  "started_unix": 1786311544.7361612,
+  "status": "DATASET_FINAL_TEST_STARTED"
+}

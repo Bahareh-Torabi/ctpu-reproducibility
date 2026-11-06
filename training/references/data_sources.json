@@ -1,0 +1,39 @@
+{
+  "reuters21578": {
+    "name": "Reuters-21578 Text Categorization Collection",
+    "official_page": "https://archive.ics.uci.edu/dataset/137/reuters%2B21578%2Btext%2Bcategorization%2Bcollection",
+    "download": "https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.tar.gz",
+    "doi": "10.24432/C52G6M",
+    "uci_license_metadata": "CC BY 4.0",
+    "protocol": "Reuters-21578 Distribution 1.0 raw SGML; ModApte-derived 90-topic labeled subset; 7,770 source TRAIN and 3,019 source TEST before carving validation from source TRAIN only.",
+    "variant_note": "The raw Distribution 1.0 reconstruction yields 10,789 labeled R(90) documents (7,770/3,019). This is intentionally distinguished from the NLTK ApteMod corpus, which contains 10,788 documents (7,769/3,019). No row is arbitrarily deleted to force NLTK counts.",
+    "audit_evidence": [
+      "Raw-SGML independent tooling reports 7,770 training documents for the ModApte-derived extraction.",
+      "Published studies exist using the 10,789-document / 7,770+3,019 variant.",
+      "NLTK documents its own ApteMod corpus as 10,788 / 7,769+3,019; published values from that variant are contextual only."
+    ]
+  },
+  "aapd": {
+    "name": "AAPD (ArXiv Academic Paper Dataset)",
+    "archive_page": "https://zenodo.org/records/6344750",
+    "download": "https://zenodo.org/records/6344750/files/AAPD.zip?download=1",
+    "doi": "10.5281/zenodo.6344750",
+    "md5": "e1419b5d03be572115287fcb80577c48",
+    "original_paper": "SGM: Sequence Generation Model for Multi-label Classification, COLING 2018",
+    "policy": "Discover archive source layout once during the first live audit, persist exact development/test layout manifests separately, and never silently delete rows to reconcile the 55,840 vs 55,837 literature discrepancy."
+  },
+  "eurlex57k": {
+    "name": "EURLEX57K",
+    "original_code": "https://github.com/iliaschalkidis/lmtc-eurlex57k",
+    "paper": "https://aclanthology.org/P19-1636/",
+    "sha256": "dc6830ce8ea49aea049989c4a8253b12d0fb3665fc336d830cb07b9bd28c0f92",
+    "official_split": "45,000 train / 6,000 validation / 6,000 test",
+    "original_label_count": 4271,
+    "main_supervised_train_seen_label_count": 4108,
+    "original_zero_train_support_label_count": 163,
+    "wasl_reported_label_count": 4256,
+    "policy": "Prefer the official AUEB URL linked by the original repository, require the pinned SHA256, and fall back to the mirror only if the official host is unavailable. Development head is TRAIN-seen only; the 4,271-label padded view is final-only diagnostic and is not the headline supervised benchmark.",
+    "official_download": "http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/datasets.zip",
+    "archive_fallback": "https://archive.org/download/EURLEX57K/dataset.zip"
+  }
+}

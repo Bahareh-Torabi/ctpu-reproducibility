@@ -1,0 +1,8 @@
+{
+  "dataset": "aapd",
+  "global_commitment_hash": "894100f2e3a7e0ed2c6279f8cfcbe3aacd6d7fee40f82a08f96484ff1542252c",
+  "lock_hash": "1030f666fbf930bea0d292b35c69d09f467642e0d57faf6df44719ed2e5be19b",
+  "rule": "One frozen dataset campaign; interruption may resume under the exact same lock only.",
+  "started_unix": 1786262652.3782473,
+  "status": "DATASET_FINAL_TEST_STARTED"
+}

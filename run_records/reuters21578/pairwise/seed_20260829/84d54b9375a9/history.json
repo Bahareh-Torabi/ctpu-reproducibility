@@ -1,0 +1,58 @@
+[
+  {
+    "bce_loss": 0.3329355551023461,
+    "elapsed_seconds_cumulative": 31.25012469291687,
+    "epoch": 1,
+    "epoch_elapsed_seconds": 31.25012469291687,
+    "lambda_aux_to_bce_score_norm_ratio": 2.2527802888661217,
+    "learning_rate": 1.5756095350722495e-05,
+    "mean_pairs_per_valid_sample": 3.5870583994232152,
+    "preclip_grad_norm": 0.6251883460506457,
+    "train_pairwise_loss_diagnostic": 0.33429883845241004,
+    "train_scalar_loss": 0.3333568413303186,
+    "valid_pair_sample_rate": 1.0,
+    "valid_pair_samples": 31.940639269406393
+  },
+  {
+    "bce_loss": 0.08082402926193524,
+    "elapsed_seconds_cumulative": 62.47556686401367,
+    "epoch": 2,
+    "epoch_elapsed_seconds": 31.2254421710968,
+    "lambda_aux_to_bce_score_norm_ratio": 2.3364464164324548,
+    "learning_rate": 1.5548278815444363e-05,
+    "mean_pairs_per_valid_sample": 3.5870583994232152,
+    "preclip_grad_norm": 0.3320561285432615,
+    "train_pairwise_loss_diagnostic": 0.14673132602021557,
+    "train_scalar_loss": 0.08085418428541337,
+    "valid_pair_sample_rate": 1.0,
+    "valid_pair_samples": 31.940639269406393
+  },
+  {
+    "bce_loss": 0.05608495304437533,
+    "elapsed_seconds_cumulative": 93.65637445449829,
+    "epoch": 3,
+    "epoch_elapsed_seconds": 31.18080759048462,
+    "lambda_aux_to_bce_score_norm_ratio": 1.9152134403790513,
+    "learning_rate": 7.480806868295345e-06,
+    "mean_pairs_per_valid_sample": 3.58735129776496,
+    "preclip_grad_norm": 0.28014942061275105,
+    "train_pairwise_loss_diagnostic": 0.0991483582789511,
+    "train_scalar_loss": 0.056100639826574865,
+    "valid_pair_sample_rate": 1.0,
+    "valid_pair_samples": 31.940639269406393
+  },
+  {
+    "bce_loss": 0.050889467760988565,
+    "elapsed_seconds_cumulative": 134.8940589427948,
+    "epoch": 4,
+    "epoch_elapsed_seconds": 41.23768448829651,
+    "lambda_aux_to_bce_score_norm_ratio": 1.7311791143460906,
+    "learning_rate": 1.2148189655378025e-06,
+    "mean_pairs_per_valid_sample": 3.5864726027397262,
+    "preclip_grad_norm": 0.24937542470078491,
+    "train_pairwise_loss_diagnostic": 0.08417509575617407,
+    "train_scalar_loss": 0.05089419706431008,
+    "valid_pair_sample_rate": 1.0,
+    "valid_pair_samples": 31.940639269406393
+  }
+]

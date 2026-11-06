@@ -1,0 +1,4 @@
+dataset,seed,mu,lambda_pair,epochs,validation_ranking_loss,validation_soft_cardinality_mae,run_id,analysis_status
+reuters21578,20260805,0.01,0.25,4,0.016360188922284653,2.6102716705114477,2ea1c1b2e710,existing_development_only_single_seed
+reuters21578,20260805,0.1,0.25,4,0.03282757092471965,1.9343322115984452,fd1bcdd20eb4,existing_development_only_single_seed
+reuters21578,20260805,1.0,0.25,4,0.06848483102608956,0.7284701759923683,25324419918d,existing_development_only_single_seed

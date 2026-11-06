@@ -1,0 +1,8 @@
+{
+  "dataset": "reuters21578",
+  "global_commitment_hash": "894100f2e3a7e0ed2c6279f8cfcbe3aacd6d7fee40f82a08f96484ff1542252c",
+  "lock_hash": "049622aa4c4763b56085281f22db9b9552c94b6e0f677c809ed9a9226bb51178",
+  "rule": "One frozen dataset campaign; interruption may resume under the exact same lock only.",
+  "started_unix": 1786218325.282784,
+  "status": "DATASET_FINAL_TEST_STARTED"
+}
